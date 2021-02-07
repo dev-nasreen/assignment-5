@@ -72,6 +72,7 @@ const addMealItem = meal =>{
         <p>${meal.strArea}</p>
         </div>
         <div class="description">
+            <p>${meal.strInstructions}</p>
             <h2>Ingredients</h2>
             <ul>
                 ${ingredients.map(ing => `<li>${ing}</li>`).join('')}
